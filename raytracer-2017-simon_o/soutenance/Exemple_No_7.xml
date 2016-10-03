@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Plan>
+      	<Position x="0" y="0" z="-300"/>
+      	<Couleur couleur="0x808080"/>
+      	<Brillance brillance="0.0"/>
+      </Plan>
+      <Plan>
+      	<Position x="1800" y="0" z="0"/>
+      	<Rotation x="0" y="-140" z="0"/>
+      	<Couleur couleur="0x505050"/>
+      	<Brillance brillance="0.0"/>
+      </Plan>
+      <Sphere>
+      	<Position x="550" y="480" z="400"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0xFF0000"/>
+      	<Brillance brillance="0.0"/>
+      	<Rayon rayon="80"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="550" y="-480" z="20"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0xFF0000"/>
+      	<Brillance brillance="0.0"/>
+      	<Rayon rayon="80"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="710" y="0" z="-100"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0xFF33FF"/>
+      	<Brillance brillance="0.0"/>
+      	<Rayon rayon="80"/>
+      </Sphere>
+      <Cylindre>
+	<Position x="300" y="-600" z="0"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x335BFF"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="80"/>
+      </Cylindre>
+      <Cylindre>
+	<Position x="300" y="600" z="0"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x335BFF"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="80"/>
+      </Cylindre>
+      <Cylindre>
+	<Position x="800" y="-400" z="0"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x335BFF"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="60"/>
+      </Cylindre>
+      <Cylindre>
+	<Position x="800" y="400" z="0"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x335BFF"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="60"/>
+      </Cylindre>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+	<Position x="-800" y="-3000" z="1000"/>
+	<Ambiante ambiente="0.0"/>
+	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+	<Position x="-800" y="3000" z="1000"/>
+	<Ambiante ambiente="0.0"/>
+	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1000" y="0" z="100"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+    <Threads threads="3"/>
+  </Configuration>
+</RT>

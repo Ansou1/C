@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Plan>
+      	<Position x="0" y="0" z="-100"/>
+      	<Couleur couleur="0x00FF66"/>
+      </Plan>
+      <Sphere>
+      	<Position x="0" y="0" z="400"/>
+      	<Couleur couleur="0xFF0000"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+      	<Position x="0" y="500" z="0"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+      	<Position x="200" y="0" z="600"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+      	<Position x="200" y="50" z="600"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+      	<Position x="200" y="100" z="600"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1800" y="0" z="100"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+  </Configuration>
+</RT>

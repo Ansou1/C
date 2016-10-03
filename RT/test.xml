@@ -1,0 +1,71 @@
+<cylinder>
+  <pos>
+    <x>-250</x>
+    <y>450</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <radius>75</radius>
+  <bright>0.7</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</cylinder>
+
+<plan>
+  <pos>
+    <x>0</x>
+    <y>0</y>
+    <z>-75</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <bright>0.2</bright>
+  <color>0x0000ff</color>
+</plan>
+
+<plan>
+  <pos>
+    <x>0</x>
+    <y>0</y>
+    <z>1100</z>
+  </pos>
+  <rotation>
+    <x>180</x>
+    <y>45</y>
+    <z>0</z>
+  </rotation>
+  <bright>0.5</bright>
+  <reflexion>0</reflexion>
+  <color>0xffffff</color>
+</plan>
+
+<light>
+  <pos>
+    <x>-1000</x>
+    <y>1000</y>
+    <z>900</z>
+  </pos>
+  <watt>1200</watt>
+  <color>0xffffff</color>
+</light>
+
+<camera>
+  <pos>
+    <x>0</x>
+    <y>1000</y>
+    <z>100</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>-90</z>
+  </rotation>
+  <aa>1</aa>
+</camera>

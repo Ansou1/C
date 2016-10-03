@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Plan>
+      	<Position x="0" y="0" z="-100"/>
+	<Rotation x="10" y="0" z="0"/>
+      	<Couleur couleur="0x00FF00"/>
+      	<Brillance brillance="0.0"/>
+      </Plan>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+      	<Position x="800" y="-350" z="50"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+      	<Position x="0" y="350" z="50"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1000" y="0" z="50"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+  </Configuration>
+</RT>

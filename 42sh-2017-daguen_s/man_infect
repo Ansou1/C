@@ -1,0 +1,121 @@
+[1;32mINECTSH[0m
+
+
+
+[1;32mNAME[0m
+	infectsh advance shell
+
+
+ENVIRONMENT VARIABLES
+
+[1;32m-PROMPT[0m
+	take a format string whith the following flags
+	%[color_name] start the color print.
+	%s under_line mode
+	%g big character
+	%c clignot
+	%vo reverse video
+	%& stop all mode
+	%r "\n"
+	%spa ???
+	%t print the time
+	%com print the number of command
+
+[1;32m-RANDOM[0m
+	use whith $ in the command line.
+	print a number
+
+[1;32m-SECONDS[0m
+	use whith $ in the command line.
+	print the time since the shell as been launch.
+
+[1;32mOPTION[0m
+
+	 [1;34m-c[0m  Commands  are  read  from  the  following  argument  (which must be
+	     present, and must be a single  argument),  stored  in  the  command
+	     shell  variable  for  reference, and executed.  Any remaining argu-
+	     ments are placed in the argv shell variable.
+
+	 [1;34m--ascii[0m   Print ascii art when an error occured
+
+[1;32m-BUlTINS[0m
+
+	 [1;34mecho[0m  Print all strings past in argument try man echo for the complete man
+	 [1;34malias[0m  Creat an alias of a string
+	 		    ex: alias [ls='ls --color=auto'] replace all the occurence of ls by ls --color
+			    alias [s1] [s2] print the alias that respectivly correspond to s1 and s2
+	 [1;34mmanual[0m  print the manual of infecsh
+	 [1;34menv[0m  show the environment variable
+	 [1;34msetenv[0m  set environment variable
+	 [1;34munsetenv[0m  unset environment variable
+	 [1;34mm[0m  print the man of infectsh
+	 [1;34mhistory:[0m an history of command
+	 	 [1;34m-c[0m  Clean history
+		 [1;34m-r[0m  reverse history
+		 [1;34m-h[0m  Print history whithout time
+		 [1;34mhistory command[0m  !num find command in the history
+
+[1;32m-SCRIPTING[0m
+
+[1;34mkey_word:[0m
+[1;33m[0m
+	[1;36mfunction[0m ->	function_name() ex:
+				  [1;36mfunction[0m my_fct()
+			     	  {
+					echo hello
+			     	  }
+
+	[1;36mwhile[0m ->	[1;36mwhile[0m [ condition ]
+
+	[1;36mfor[0m   ->	[1;36mfor[0m [1;33mvariable[0m in [commande] ex: for $[1;33mstr[0m in $(ls -l); do; echo $[1;33mstr[0m; done
+
+	[1;36muntil[0m ->	[1;36muntil[0m [ condition ]
+
+	[1;36mcase[0m  ->	exec the value of the line that match whith VAR ex:
+      			     	[1;36mcase[0m $[1;33mVAR[0m in
+				"case1") echo hello
+				"case2") echo bye!
+			if VAR is equal to case1 the first line will be executed.
+
+	[1;36mexec[0m ->	exec the line as a shell command
+
+	[1;36mexit[0m ->	leave the execution of the script and free
+
+	[1;36mtrap[0m ->	execut the function pass in parameter when signal was detected
+
+	[1;36mdone[0m ->	end of control instruction
+
+	[1;36mfi[0m ->	and of [1;36mif[0m
+
+	[1;36mesac[0m ->	end of [1;36mcase[0m
+
+	[1;36mread[0m ->	read on standart input and stock in variable
+
+	[1;33m[0m
+[1;34mcondition:[0m
+		Syntaxe [ first_value (comp) second_value ]
+
+	[1;33mstring comparator:[0m
+		   '=' -> true if s1 = s2 ex if [ $s2 = $s2 ]
+		   '!=' -> true if s1 doesn't match whith s2
+		   '-z' -> true if the string is null
+		   '-n' -> true if the string is not null
+
+	[1;33mtest file:[0m
+		   -e file exist?
+		   -b file is block type
+		   -c file is character type
+		   -d file is a directory
+		   -s file is a socket
+		   -L file is link
+		   -f file is a regular file
+		   -x -w -r test the user right
+
+	[1;33minteger comparator:[0m
+		   -lt <
+		   -gt >
+		   -le <=
+		   -ge >=
+		   -eq ==
+		   -ne !=
+		   

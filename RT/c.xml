@@ -1,0 +1,257 @@
+<sphere>
+  <pos>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.5</bright>
+  <reflexion>0.5</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+
+<sphere>
+  <pos>
+    <x>200</x>
+    <y>-200</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.7</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+
+<sphere>
+  <pos>
+    <x>200</x>
+    <y>200</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.7</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+
+<sphere>
+  <pos>
+    <x>400</x>
+    <y>-200</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.7</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+
+<sphere>
+  <pos>
+    <x>400</x>
+    <y>200</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.7</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+
+<cube>
+  <pos>
+    <x>300</x>
+    <y>0</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>-45</z>
+  </rotation>
+
+  <size>75</size>
+  <bright>0.3</bright>
+  <reflexion>0.1</reflexion>
+  <color>0x000000</color>
+</cube>
+
+<cube>
+  <pos>
+    <x>0</x>
+    <y>300</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <size>75</size>
+  <bright>0.5</bright>
+  <reflexion>0.1</reflexion>
+  <color>0xff0000</color>
+</cube>
+
+<cube>
+  <pos>
+    <x>0</x>
+    <y>-300</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>24</z>
+  </rotation>
+
+  <size>75</size>
+  <bright>0.5</bright>
+  <reflexion>0.1</reflexion>
+  <color>0x0000ff</color>
+</cube>
+
+<cylinder>
+  <pos>
+    <x>300</x>
+    <y>-400</y>
+    <z>0</z>
+  </pos>
+
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <radius>75</radius>
+  <bright>0.5</bright>
+  <reflexion>0.3</reflexion>
+  <color>0x00ff00</color>
+</cylinder>
+
+<cone>
+  <pos>
+    <x>300</x>
+    <y>400</y>
+    <z>-75</z>
+  </pos>
+
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+
+  <angle>10</angle>
+  <bright>0.5</bright>
+  <reflexion>0.3</reflexion>
+  <color>0xffffff</color>
+</cone>
+
+<plan>
+  <pos>
+    <x>0</x>
+    <y>0</y>
+    <z>-75</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <bright>0.5</bright>
+  <reflexion>0.2</reflexion>
+  <color>0x0000ff</color>
+</plan>
+
+<plan>
+  <pos>
+    <x>0</x>
+    <y>0</y>
+    <z>1100</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <bright>0</bright>
+  <reflexion>0</reflexion>
+  <color>0xffffff</color>
+</plan>
+
+<light>
+  <pos>
+    <x>1000</x>
+    <y>-1000</y>
+    <z>900</z>
+  </pos>
+  <watt>1000</watt>
+  <color>0xffffff</color>
+</light>
+
+<light>
+  <pos>
+    <x>-1000</x>
+    <y>-1000</y>
+    <z>900</z>
+  </pos>
+  <watt>1000</watt>
+  <color>0xaaaaff</color>
+</light>
+
+<light>
+  <pos>
+    <x>-1000</x>
+    <y>1000</y>
+    <z>900</z>
+  </pos>
+  <watt>1000</watt>
+  <color>0xffaaaa</color>
+</light>
+
+<camera>
+  <pos>
+    <x>-800</x>
+    <y>0</y>
+    <z>1000</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>45</y>
+    <z>0</z>
+  </rotation>
+  <aa>1</aa>
+</camera>

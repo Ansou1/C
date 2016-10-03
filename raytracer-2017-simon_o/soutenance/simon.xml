@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Cylindre>
+      	<Position x="0" y="-300" z="0"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x33EE00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="0" y="300" z="0"/>
+      	<Rotation x="0" y="0" z="00"/>
+      	<Couleur couleur="0x33EE00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="0" y="300" z="-400"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33EE00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="0" y="300" z="400"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33EE00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Plan>
+      	<Position x="5000" y="0" z="0"/>
+      	<Rotation x="0" y="-140" z="0"/>
+      	<Brillance brillance="0.0"/>
+      	<Couleur couleur="0x808080"/>
+      </Plan>
+      <Plan>
+      	<Position x="0" y="0" z="-3000"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Brillance brillance="0.0"/>
+      	<Couleur couleur="0x808080"/>
+      </Plan>
+      <Sphere>
+      	<Position x="0" y="300" z="400"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="0" y="-300" z="400"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="0" y="300" z="-400"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="0" y="-300" z="-400"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <!-- <Sphere> -->
+      <!-- 	<Position x="0" y="0" z="0"/> -->
+      <!-- 	<Couleur couleur="0xFFFFFF"/> -->
+      <!-- 	<Brillance brillance="1"/> -->
+      <!-- 	<Rayon rayon="100"/> -->
+      <!-- </Sphere> -->
+      <Cylindre>
+      	<Position x="200" y="-550" z="0"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="200" y="550" z="0"/>
+      	<Rotation x="0" y="0" z="00"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="200" y="400" z="-600"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="200" y="400" z="600"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Sphere>
+      	<Position x="200" y="550" z="600"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="1"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="200" y="-550" z="600"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="200" y="-550" z="-600"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="200" y="550" z="-600"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Cylindre>
+      	<Position x="-200" y="-100" z="0"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="-200" y="100" z="0"/>
+      	<Rotation x="0" y="0" z="00"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="-200" y="100" z="-200"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="-200" y="-100" z="200"/>
+      	<Rotation x="-90" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Sphere>
+      	<Position x="-200" y="-100" z="-200"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-200" y="-100" z="200"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-200" y="100" z="200"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-200" y="100" z="-200"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-250" y="0" z="0"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="60"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-250" y="-50" z="0"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="50"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-250" y="50" z="0"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="50"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-250" y="0" z="50"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="50"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="-250" y="0" z="-50"/>
+      	<Couleur couleur="0xFFFF33"/>
+      	<Brillance brillance="1"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="50"/>
+      </Sphere>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+    	<Position x="-1000" y="0" z="500"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="-1000" y="0" z="-500"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="-1000" y="500" z="500"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="-1000" y="-500" z="-500"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="-1000" y="0" z="0"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1500" y="0" z="0"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Threads threads="10"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+  </Configuration>
+</RT>

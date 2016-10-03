@@ -1,0 +1,85 @@
+Le fichier de configuration se divise en deux parties : la partie Scene, et la partie Configuration. Ces deux noeuds doivent être encapsulé dans le noeud <RT>.
+Voici un descriptif et la parentée de chaques noeuds du fichier de configuration :
+
+Nom du noeud	       Parent	      	      Commentaire								                                                                  Valeur par défaut
+
+<RT>   		       Aucun		      Noeud principal.
+<Scene>		       <RT>		      Noeud contenant toutes les informations sur la scene
+<Objets>	       <Scene>		      Noeud contenant tous les objets de la scene
+<Sphere>	       <Objets>		      Noeud permettant la création d'une sphère.
+<Plan>		       <Objets>		      Noeud permettant la création d'un plan.
+<Cone>		       <Objets>		      Noeud permettant la création d'un cone.
+<Cylindre>	       <Objets>		      Noeud permettant la création d'un cylindre.
+<Cube>		       <Objet>		      Noeud permettant la création d'un objet composé de 6 plans : le cube. (Attributs possibles : position, rayon, couleur.)
+<Position/>	       Un noeud objet,	      Element permettant la mise en place des coordonnées du centre de l'objet, lumière ou oeil. Attributs possibles :
+		         lumière ou 	      x="entier"       => l'objet sera placé en "valeur" sur l'axe des x (ex : x="30" place l'objet en 30 sur l'axe des x)                               0
+			    oeil	      y="entier"       => l'objet sera placé en "valeur" sur l'axe des y (ex : y="20" place l'objet en 20 sur l'axe des y)      		         0
+					      z="entier"       => l'objet sera placé en "valeur" sur l'axe des z (ex : z="-50" place l'objet en -50 sur l'axe des z)			         0
+<Rotation/>	       Un noeud objet,	      Element permettant la mise en place d'un angle de rotation de l'objet ou de l'oeil. Attributs possibles :
+		       	  ou oeil	      x="entier"       => l'objet effectueras une rotation de "valeur" sur l'axe des x 		                                                         0
+					      		          (ex : x="90" effectue une rotation de 90 degrés sur l'axe des x)
+		       	  		      y="entier"       => l'objet effectueras une rotation de "valeur" sur l'axe des y 	                                                                 0
+					      		          (ex : x="20" effectue une rotation de 20 degrés sur l'axe des y)
+		       	  		      z="entier"       => l'objet effectueras une rotation de "valeur" sur l'axe des z 	                                                                 0
+					      		          (ex : x="180" effectue une rotation de 180 degrés sur l'axe des z)
+<Couleur/>             Un noeud objet,	      Element permettant la mise en place d'une couleur sur un objet ou une lumière. Attributs possibles :
+		       	 ou lumière	      couleur="valeur" => l'objet aura la couleur "valeur" (ex : couleur="0xFF0000" donne la couleur rouge à l'objet.)                                   blanc
+					      		          Valeurs possibles de couleur :
+					      		       	  0x0 à 0xFFFFFF  => couleur définie par ses composantes RGB en héxadécimal
+								  rouge		  => couleur rouge (0xFF0000)
+								  vert		  => couleur verte (0xFF00)
+								  bleu		  => couleur bleue (0xFF)
+								  noir		  => couleur noire (0x0)
+								  blanc		  => couleur blanche (0xFFFFFF)
+								  jaune		  => couleur jaune (0xFFFF00)
+								  violet	  => couleur violette (0xFF00FF)
+								  cyan		  => couleur cyan (0xFFFF)
+								  random	  => couleur aléatoire (entre 0x0 et 0xFFFFFF)
+					      damier="valeur" => l'objet aura un damier de couleur "valeur"		                                                                         -1 (non activé)
+					      		         (ex : couleur="rouge" damier="bleu" donnera un damier de couleur rouge et bleu à l'objet)
+								  Même valeurs possibles que pour l'attribut "couleur"
+<Rayon/>	       Un noeud objet	      Element permettant de fixer un rayon à l'objet (ou un angle d'ouverture pour le cone, ou une taille pour le cube). Attributs possibles :
+		       	  		      rayon="entier" || rayon="decimal"	  => donne un rayon de "entier" à la sphère, ou un angle d'ouverture de "decimal" au cone, ou une taille.        0
+					                                             pour le cube. N'est pas utilisé pour les autres objets.
+<Brillance/>	       Un noeud objet	      Element permettant de fixer un taux de brillance à l'objet. Attributs possibles :
+		       	  		      brillance="decimal"   => fixe un taux de brillance égal à "decimal". 0.0 = brillance maximale, 1.0 = brillance nulle.                              0
+<Bump/>		       Un noeud objet	      Element permettant de fixer du bump-mapping (perturbation de la normale) à un objet. Attributs possibles :
+		       	  		      x="actif|inactif"	    => Active/désactive le bump-mapping en x  	       	    	   	     	                                                 Inactif
+		       	  		      y="actif|inactif"	    => Active/désactive le bump-mapping en y											 Inactif
+		       	  		      z="actif|inactif"	    => Active/désactive le bump-mapping en z											 Inactif
+<Limite/>	       Un noeud objet	      Element permettant de définir une limite sur le plan (uniquement). Attributs possibles :
+		       	  		      largeur="valeur"      => Définie une limite sur l'axe des x de largeur "valeur".	                                                                 -1 (aucune)
+					      longueur="valeur"	    => Définie une limite sur l'axe des y de longueur "valeur".									 -1 (aucune)
+<Specularitee/>	       Un noeud objet	      Element permettant de définir des attributs de lumière spéculaire. Attributs possibles :
+		       	  		      matiere="valeur"	    => Définie une valeur à la matière de l'objet.	   	     								 700
+					      intensitee="valeur"   =< Definie une intensitée à la lumière sur l'objet.										 3
+<Lumieres>	       <Scene>		      Noeud principal des lumières (non pas les philosophes..).
+<Lumiere>	       <Lumieres>	      Noeud permettant la création d'une nouvelle lumière.
+<Oeil>		       <Scene>		      Noeud contenant les informations sur la position et la rotation de l'oeil.
+<Configuration>	       <RT>		      Noeud contenant toutes les informations sur les algorithmes utilisés pour la génération de la scene
+<Antialiasing/>	       <Configuration>	      Element permettant l'activation de l'anti-aliasing. Attributs possibles :
+		       			      antialiasing="valeur" => active un anti-aliasing de "valeur" (valeur² lancés de rayons par pixel)                                                  1
+					      			       (min : 1, max : 100)
+<Fenetre/>	       <Configuration>	      Element permettant de fixer la taille de la fenêtre. Attributs possibles :
+		       			      largeur="valeur" => fixe une largeur de "valeur" pixels à la fenetre. (min : 100, max : 1920)                                                      640
+					      hauteur="valeur" => fixe une hauteur de "valeur" pixels à la fenetre. (min : 100, max : 1080)							 480
+<Flou/>		       <Configuration>	      Element permettant l'activation des ombres floues. Attributs possibles :
+		       			      flou="actif|inactif" => si flou est mis a "actif", alors les ombres floues seront activées. Sinon, elles seront désactivées.                       inactif
+					      		       	      A noter : si les ombres floues sont activées, l'anti-aliasing est mis automatiquement à 8 minimum.
+<Threads/>             <Configuration>	      Element permettant de fixer le nombre de threads supplémentaire qui travailleront sur le calcul de l'image. Attributs possibles :
+		       			      threads="entier" => rajoute "entier" threads. (min : 0, max : 20)	  		       	      	 	  	    	                         0
+<Filtre/>	       <Configuration>	      Element permettant de fixer un filtre de couleur à l'image. Attributs possibles :
+		       			      filtre="nom_du_filtre" => genere un filtre de couleur à l'image. Valeurs possibles de nom_du_filtre :                                              aucun
+					      			        bleu   	  	 => filtre de couleur bleu.
+									rouge  	  	 => filtre de couleur rouge.
+									vert   	  	 => filtre de couleur vert.
+									noir_et_blanc 	 => filtre de couleur noir et blanc.
+									negatif 	 => filtre de couleur négatif.
+									sepia 		 => filtre de couleur sépia.
+									aucun 		 => aucun filtre.
+<Video>		      <Configuration>	      Element permettant de fixer des options pour le mode vidéo. Attributs possibles :
+		      			      centre_x="valeur"	 => définie un centre sur l'axe des x autour duquel tournera la caméra                                                           0
+					      centre_y="valeur"	 => définie un centre sur l'axe des y autour duquel tournera la caméra								 0
+					      centre_z="valeur"  => définie un centre sur l'axe des z autour duquel tournera la caméra								 0
+					      rayon="valeur"	 => définie le rayon autour duquel tournera la caméra	     									 1000
+					      images="valeur"    => définie le nombre d'images prises (entre 1 et 360)										 36

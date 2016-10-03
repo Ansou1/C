@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Plan>
+      	<Position x="0" y="0" z="-300"/>
+      	<Couleur couleur="0xCCFF33"/>
+      	<Brillance brillance="0.0"/>
+      </Plan>
+      <Cone>
+      	<Position x="500" y="0" z="0"/>
+      	<Rotation x="-20" y="15" z="0"/>
+      	<Couleur couleur="0x3399CC"/>
+      	<Rayon rayon="50"/>
+      </Cone>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+      	<Position x="-1000" y="0" z="100"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="0" y="-1500" z="100"/>
+    	<Couleur couleur="0xFFFFFF"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1000" y="0" z="100"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+  </Configuration>
+</RT>

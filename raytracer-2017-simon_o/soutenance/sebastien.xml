@@ -1,0 +1,246 @@
+<RT>
+  <Scene>
+    <Objets>
+      <!-- plan du fond -->
+      <Plan>
+	<Position x="50"/>
+	<Rotation y="90"/>
+	<Couleur couleur="0x444444"/>
+      </Plan>
+      <!-- Plan au sol -->
+      <Plan>
+	<Position z="-50"/>
+	<Couleur couleur="blanc"/>
+      </Plan>
+
+
+      <!-- MEGA TRUC DE LA MORT -->
+      <!-- Sphere centrale -->
+      <Sphere>
+	<Position y="180" z="50"/>
+	<Couleur couleur="0x3333FF"/>
+	<Rayon rayon="50"/>
+      </Sphere>
+      <!-- Plans qui coupent -->
+      <Plan>
+	<Position y="180" z="50"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="180" z="50"/>
+	<Rotation x="45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="180" z="50"/>
+	<Rotation x="-45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="180" z="50"/>
+	<Rotation x="-90"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+
+
+      <!-- MEGA TRUC DE LA MORT DROITE-->
+      <!-- Sphere centrale -->
+      <Sphere>
+	<Position y="-180" z="50"/>
+	<Couleur couleur="0x3333FF"/>
+	<Rayon rayon="50"/>
+      </Sphere>
+      <!-- Plans qui coupent -->
+      <Plan>
+	<Position y="-180" z="50"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="-180" z="50"/>
+	<Rotation x="45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="-180" z="50"/>
+	<Rotation x="-45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="-180" z="50"/>
+	<Rotation x="-90"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+
+
+      <!-- MEGA TRUC DE LA MORT CENTRE-->
+      <!-- Sphere centrale -->
+      <Sphere>
+	<Position y="0" z="250"/>
+	<Couleur couleur="0x3333FF"/>
+	<Rayon rayon="50"/>
+      </Sphere>
+      <!-- Plans qui coupent -->
+      <Plan>
+	<Position y="0" z="250"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="0" z="250"/>
+	<Rotation x="45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="0" z="250"/>
+	<Rotation x="-45"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+      <Plan>
+	<Position y="0" z="250"/>
+	<Rotation x="-90"/>
+	<Couleur couleur="bleu"/>
+	<Limite largeur="100" longueur="200"/>
+      </Plan>
+
+
+
+
+    </Objets>
+    <Lumieres>
+      <!-- LUMIERES TRUC DE LA MORT -->
+      <!-- Lumiere du haut -->
+      <Lumiere>
+	<Position y="280" z="300"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-280" z="300"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="280" z="70"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-280" z="70"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <!-- Lumiere du bas -->
+      <Lumiere>
+	<Position y="280" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-280" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="200" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-200" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+
+
+
+      <!-- LUMIERES TRUC DE LA MORT CENTRAL -->
+      <!-- Lumiere du haut -->
+      <Lumiere>
+	<Position y="460" z="500"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-100" z="500"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="460" z="270"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-100" z="270"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <!-- Lumiere du bas -->
+      <Lumiere>
+	<Position y="460" z="220"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-100" z="220"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="380" z="220"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-20" z="220"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+
+
+
+      <!-- LUMIERES TRUC DE LA MORT -->
+      <!-- Lumiere du haut -->
+      <Lumiere>
+	<Position y="-80" z="300"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-640" z="300"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-80" z="70"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-640" z="70"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <!-- Lumiere du bas -->
+      <Lumiere>
+	<Position y="-80" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-640" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-160" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+      <Lumiere>
+	<Position y="-560" z="20"/>
+	<Couleur couleur="blanc"/>
+      </Lumiere>
+
+
+      <!-- <Lumiere> -->
+      <!-- 	<Position z="-30"/> -->
+      <!-- 	<Couleur couleur="rouge"/> -->
+      <!-- </Lumiere> -->
+    </Lumieres>
+    <Oeil>
+      <Position x="-1300" y="20" z="80"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Threads threads="8"/>
+    <Antialiasing antialiasing="2"/>
+  </Configuration>
+</RT>

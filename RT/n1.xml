@@ -1,0 +1,54 @@
+<sphere>
+  <pos>
+    <x>-40</x>
+    <y>0</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <radius>80</radius>
+  <bright>0.2</bright>
+  <reflexion>0.8</reflexion>
+  <color>0x7f7f7f</color>
+</sphere>
+<sphere>
+  <pos>
+    <x>-400</x>
+    <y>0</y>
+    <z>0</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <radius>10</radius>
+  <bright>0.2</bright>
+  <reflexion>0.8</reflexion>
+  <color>0xaaffaa</color>
+</sphere>
+<light>
+  <pos>
+    <x>-500</x>
+    <y>00</y>
+    <z>100</z>
+  </pos>
+  <watt>12000</watt>
+  <color>0x000000</color>
+</light>
+<camera>
+  <pos>
+    <x>-800</x>
+    <y>0</y>
+    <z>100</z>
+  </pos>
+  <rotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </rotation>
+  <aa>1</aa>
+</camera>

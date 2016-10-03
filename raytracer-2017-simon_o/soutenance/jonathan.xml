@@ -1,0 +1,115 @@
+<RT>
+  <Scene>
+    <Objets>
+      <!-- sol -->
+      <Plan>
+      	<Position x="0" y="0" z="0"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0xededed"/>
+	<Brillance brillance="0.5"/>
+      </Plan>
+      <!-- mur de gauche -->
+      <Plan>
+	<Position x="200" y="200" z="0"/>
+	<Rotation x="75" y="0" z="0"/>
+	<Couleur couleur="0xededed" damier="0x00CCFF"/>
+	<Brillance brillance="0.5"/>
+	<Bump z="actif"/>
+      </Plan>
+      <!-- mur de droite -->
+      <Plan>
+	<Position x="200" y="-200" z="0"/>
+	<Rotation x="-75" y="0" z="0"/>
+	<Couleur couleur="0xededed"/>
+	<Couleur couleur="0xededed" damier="0x00CCFF"/>
+	<Brillance brillance="0.5"/>
+	<Bump z="actif"/>
+      </Plan>
+      <!-- bordure de route gauche -->
+      <Cylindre>
+      	<Position x="200" y="200" z="0"/>
+      	<Rotation x="25" y="90" z="0"/>
+      	<Couleur couleur="0xEE2222"/>
+      	<Rayon rayon="25"/>
+      </Cylindre>
+      <!-- bordure de route droite -->
+      <Cylindre>
+      	<Position x="200" y="-200" z="0"/>
+      	<Rotation x="-25" y="90" z="0"/>
+      	<Couleur couleur="0xEE2222"/>
+      	<Rayon rayon="25"/>
+      </Cylindre>
+      <!-- cube -->
+      <Sphere>
+      	<Position x="400" y="0" z="150"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x0000FF"/>
+	<Bump z="actif"/>
+      	<Rayon rayon="50"/>
+      </Sphere>
+      <Cone>
+      	<Position x="900" y="0" z="0"/>
+      	<Rotation x="45" y="0" z="0"/>
+      	<Couleur couleur="0xFF0000"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="75"/>
+      </Cone>
+      <Cone>
+      	<Position x="900" y="0" z="0"/>
+      	<Rotation x="-45" y="0" z="0"/>
+      	<Couleur couleur="0xFF0000"/>
+	<Bump x="actif"/>
+      	<Rayon rayon="75"/>
+      </Cone>
+      <Cube>
+      	<Position x="400" y="150" z="80"/>
+      	<Couleur couleur="0x00FF00"/>
+      	<Rayon rayon="25"/>
+      </Cube>
+      <Cube>
+      	<Position x="400" y="-150" z="80"/>
+      	<Couleur couleur="0x00FF00"/>
+      	<Rayon rayon="25"/>
+      </Cube>
+      <Plan>
+      	<Position x="200" y="0" z="50"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x00FF00"/>
+	<Limite largeur="70" longueur="70"/>
+      </Plan>
+      <Plan>
+      	<Position x="-150" y="90" z="60"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x00FF00"/>
+	<Limite largeur="50" longueur="50"/>
+      </Plan>
+      <Plan>
+      	<Position x="-180" y="-90" z="60"/>
+      	<Rotation x="0" y="0" z="0"/>
+      	<Couleur couleur="0x00FF00"/>
+	<Limite largeur="50" longueur="50"/>
+      </Plan>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+	<Position x="400" y="150" z="1"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x000000"/>
+      </Lumiere>
+      <Lumiere>
+	<Position x="400" y="-150" z="1"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0x000000"/>
+      </Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-800" y="0" z="200"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="800" hauteur="600"/>
+    <Threads threads="3"/>
+  </Configuration>
+</RT>

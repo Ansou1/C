@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <Sphere>
+	<Position x="0" y="-300" z="0"/>
+	<Rotation x="0" y="0" z="0"/>
+	<Couleur couleur="0xFFFF00"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="100"/>
+      </Sphere>
+      <Cylindre>
+	<Position x="0" y="-300" z="0"/>
+	<Rotation x="0" y="80" z="0"/>
+	<Couleur couleur="0xCC00FF"/>
+	<Brillance brillance="0.0"/>
+	<Rayon rayon="60"/>
+      </Cylindre>
+    </Objets>
+    <Lumieres>
+      <Lumiere>
+	<Position x="-1500" y="0" z="1000"/>
+	<Ambiante ambiente="0.0"/>
+	<Couleur couleur="0xFFFFFF"/>
+	</Lumiere>
+    </Lumieres>
+    <Oeil>
+      <Position x="-1600" y="0" z="100"/>
+      <Rotation x="0" y="0" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1920" hauteur="1080"/>
+  </Configuration>
+</RT>

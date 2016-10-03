@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RT>
+  <Scene>
+    <Objets>
+      <!-- Lune -->
+      <!-- Surface -->
+      <Cylindre>
+      	<Position x="0" y="-300" z="0"/>
+      	<Rotation x="0" y="70" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="0" y="300" z="0"/>
+      	<Rotation x="0" y="70" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <Cylindre>
+      	<Position x="0" y="0" z="0"/>
+      	<Rotation x="90" y="0" z="0"/>
+      	<Couleur couleur="0x33CC00"/>
+      	<Rayon rayon="50"/>
+      </Cylindre>
+      <!-- <Cylindre> -->
+      <!-- 	<Position x="800" y="200" z="0"/> -->
+      <!-- 	<Rotation x="0" y="0" z="0"/> -->
+      <!-- 	<Couleur couleur="0x33CC00"/> -->
+      <!-- 	<Rayon rayon="50"/> -->
+      <!-- </Cylindre> -->
+      <!--plan-->
+      <Cube>
+	<Position x="0" y="0" z="0"/>
+	<Rayon rayon="150"/>
+	<Couleur couleur="0x4c4c4c"/>
+	<Brillance brillance="1"/>
+      </Cube>
+      <Plan>
+      	<Position x="500" y="0" z="-3000"/>
+      	<Rotation x="0" y="-90" z="0"/>
+      	<Brillance brillance="1"/>
+      	<Couleur couleur="4c4c4c"/>
+      </Plan>
+      <Plan>
+      	<Position x="0" y="0" z="-300"/>
+      	<Brillance brillance="1"/>
+      	<Couleur couleur="FFFFFF" damier="0x8D8D8D"/>
+      </Plan>
+      <Sphere>
+      	<Position x="0" y="-300" z="0"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="0" y="300" z="0"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="1"/>
+      	<Rayon rayon="100"/>
+      </Sphere>
+      <Sphere>
+      	<Position x="0" y="0" z="300"/>
+      	<Couleur couleur="0xFFFFFF"/>
+      	<Brillance brillance="0.4"/>
+	<Bump z="actif"/>
+      	<Rayon rayon="150"/>
+      </Sphere>
+    </Objets>
+    <Lumieres>
+      <!--Soleil-->
+      <Lumiere>
+      	<Position x="0" y="1000" z="400"/>
+      	<Couleur couleur="0xFF0000"/>
+      </Lumiere>
+      <Lumiere>
+    	<Position x="0" y="-1000" z="400"/>
+    	<Couleur couleur="0x00FF00"/>
+      </Lumiere>
+      <!-- <Light> -->
+      <!-- 	<Position x="-1000" y="0" z="-100"/> -->
+      <!-- 	<Couleur couleur="0x0000FF"/> -->
+      <!-- </Light> -->
+    </Lumieres>
+    <Oeil>
+      <Position x="-1200" y="0" z="600"/>
+      <Rotation x="0" y="-25" z="0"/>
+    </Oeil>
+  </Scene>
+  <Configuration>
+    <Antialiasing antialiasing="1"/>
+    <Fenetre largeur="1024" hauteur="900"/>
+    <Threads threads="8"/>
+  </Configuration>
+</RT>
